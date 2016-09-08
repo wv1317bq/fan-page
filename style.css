@@ -1,0 +1,16 @@
+body {
+   background-color: peachpuff;
+   color: black;}
+
+h1 {
+    color: cadetblue;} 
+h2 { 
+    color: darkblue}
+h3 {
+    color: blueviolet}
+
+#heading-id { 
+    background-color: lemonchiffon;}
+
+.p-span {
+    color: tomato;}
