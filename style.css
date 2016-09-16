@@ -12,21 +12,19 @@
     font-size: 3em;
     text-decoration: none;
 }
-
-
-
+ 
 body {
    background-color: #FFFFFF;
     font-family: "Arial Black","Arial Bold",sans-serif;
     color: #003399;}
 nav {
-    background-color: cadetblue
+    background-color: cadetblue;
+    text-decoration: none;    
+    font-size: 1em;
 }
 
-a {
+a{
     text-decoration: none;
-    font-weight: bold;
-    font-size: 3em;
 }
 
 h2 {
@@ -47,5 +45,5 @@ ul {
     list-style-type: square;
 }
 footer {
-    font-size: .8em; font-style: italic;
+    font-size: 0.8em; font-style: italic;
 }
