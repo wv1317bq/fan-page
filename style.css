@@ -1,16 +1,45 @@
-body {
-   background-color: peachpuff;
-   color: black;}
-
-h1 {
-    color: cadetblue;} 
-h2 { 
-    color: darkblue}
-h3 {
-    color: blueviolet}
-
 #heading-id { 
-    background-color: lemonchiffon;}
+    font-size: 5em;
+    color: #FFFFFF;
+    background-image: url(phtos/longpara.jpg);
+    background-position: left;
+    background-repeat:no-repeat;
+    width: 150%; 
+    height: 200%; 
+}
+.link {
+    font-weight: bold;
+    font-size: small;
+    text-decoration: none;
+}
+
+nav {
+    background-color:azure;
+    text-decoration: none;
+}
+
+body {
+   background-color: #FFFFFF;
+    font-family: "Arial Black","Arial Bold",sans-serif;
+    color: #003399;}
+
+h2 {
+    font-family: "Lucida Console","Lucida Sans Typewriter","Bitstream Vera Sans Mono",monospace;
+    color: cadetblue;
+    text-transform: uppercase;
+} 
+
+h4 {
+    font-family:sans-serif;
+        
+}
 
 .p-span {
     color: tomato;}
+
+ul {
+    list-style-type: square;
+}
+footer {
+    font-size: small; font-style: italic;
+}
