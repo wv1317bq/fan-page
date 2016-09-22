@@ -1,12 +1,4 @@
-#heading-id { 
-    font-size: 5em;
-    color: #FFFFFF;
-    background-image: url(phtos/longpara.jpg);
-    background-position: left;
-    background-repeat:no-repeat;
-    width: 150%; 
-    height: 200%; 
-}
+
 .link {
     font-weight: bold;
     font-size: 3em;
@@ -14,13 +6,31 @@
 }
  
 body {
-   background-color: #FFFFFF;
+   
     font-family: "Arial Black","Arial Bold",sans-serif;
-    color: #003399;}
+    color: black;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #FFFFFF, #99FFFF);
+    box-shadow: 5px 5px 5px #1e1e1e;
+}
+ 
+main {
+    background-image:  url(phtos/longboat.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 80%;
+    margin:auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
 nav {
     background-color: cadetblue;
     text-decoration: none;    
     font-size: 1em;
+    
 }
 
 a{
@@ -28,14 +38,48 @@ a{
 }
 
 h2 {
+    
     font-family: "Lucida Console","Lucida Sans Typewriter","Bitstream Vera Sans Mono",monospace;
     color: cadetblue;
+    background-color: aqua;
     text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 2px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    opacity: 0.6;
 } 
 
 h4 {
     font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",sans-serif;
+    margin-top: 2px;
+   
         
+}
+
+h3{
+     text-shadow: 3px 3px 3px #666;
+    margin-top: 2px;
+}
+
+
+
+h6{
+    margin-top: 2px;
+}
+
+#heading-id { 
+    font-size: 5em;
+    color: #FFFFFF;
+    background-image: url(phtos/longpara.jpg);
+    background-position: right;
+    background-repeat:no-repeat;
+    width: 150%; 
+    height: 200%; 
+    
 }
 
 .p-span {
@@ -45,5 +89,7 @@ ul {
     list-style-type: square;
 }
 footer {
-    font-size: 0.8em; font-style: italic;
+    font-size: 0.8em; font-style: italic; background-color: white;
+    margin: auto;
+    width: 80%;
 }
