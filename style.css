@@ -4,33 +4,21 @@
     font-size: 3em;
     text-decoration: none;
 }
- 
-body {
-   
-    font-family: "Arial Black","Arial Bold",sans-serif;
-    color: black;
-    text-align: center;
-    background-image: linear-gradient(to bottom, #FFFFFF, #99FFFF);
-    box-shadow: 5px 5px 5px #1e1e1e;
-}
+
  
 main {
-    background-image:  url(phtos/longboat.jpg);
+    background-image:  url(phtos/boat.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 80%;
-    margin:auto;
+    background-size: 500px 150px;
+    background-position: top;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: white;
 }
 
 nav {
     background-color: cadetblue;
     text-decoration: none;    
-    font-size: 1em;
-    
+    font-size: 1em;   
 }
 
 a{
@@ -77,11 +65,17 @@ h6{
     background-image: url(phtos/longpara.jpg);
     background-position: right;
     background-repeat:no-repeat;
-    width: 150%; 
-    height: 200%; 
+    background-size: contain; 
+    box-shadow: 5px 5px 5px #1e1e1e;
+    background-image: linear-gradient(to bottom, #FFFFFF, darkblue);
     
 }
 
+#wrap{
+    margin: auto;
+    width: 80%;
+     background-color: white;
+}
 .p-span {
     color: tomato;}
 
@@ -89,7 +83,15 @@ ul {
     list-style-type: square;
 }
 footer {
-    font-size: 0.8em; font-style: italic; background-color: white;
-    margin: auto;
-    width: 80%;
+    font-size: 0.8em; font-style: italic;
+    
+}
+
+body {
+   
+    font-family: "Arial Black","Arial Bold",sans-serif;
+    color: black;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #FFFFFF, #99FFFF);
+    box-shadow: 5px 5px 5px #1e1e1e;
 }
