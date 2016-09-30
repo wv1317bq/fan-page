@@ -1,24 +1,30 @@
 
 .link {
     font-weight: bold;
-    font-size: 3em;
+    font-size: 1em;
     text-decoration: none;
 }
 
- 
-main {
-    background-image:  url(phtos/boat.jpg);
+#longpara{
+     background-image:  url(phtos/longpara.jpg);
     background-repeat: no-repeat;
-    background-size: 500px 150px;
-    background-position: top;
+    background-size: 500px 300px; 
+    float:left;
+} 
+main {
+   
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 100px;
+
 }
 
 nav {
     background-color: cadetblue;
     text-decoration: none;    
-    font-size: 1em;   
+    font-size: 1em;  
+    margin bottom: 5px;
+    
 }
 
 a{
@@ -30,16 +36,23 @@ h2 {
     font-family: "Lucida Console","Lucida Sans Typewriter","Bitstream Vera Sans Mono",monospace;
     color: cadetblue;
     background-color: aqua;
+    background-position: right;
     text-transform: uppercase;
     padding-bottom: 10px;
     padding-top: 10px;
     margin-top: 2px;
+    margin-left: 600px;
+    width: 400px;
     border-top-left-radius: 90px;
     border-top-right-radius: 90px;
     border-bottom-right-radius: 90px;
     border-bottom-left-radius: 90px;
-    opacity: 0.6;
-} 
+/*    opacity: 0.6;*/
+}
+
+.floatmargin{
+    margin-left: 500px
+}
 
 h4 {
     font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",sans-serif;
@@ -59,28 +72,18 @@ h6{
     margin-top: 2px;
 }
 
-#heading-id { 
-    font-size: 5em;
-    color: #FFFFFF;
-    background-image: url(phtos/longpara.jpg);
-    background-position: right;
-    background-repeat:no-repeat;
-    background-size: contain; 
-    box-shadow: 5px 5px 5px #1e1e1e;
-    background-image: linear-gradient(to bottom, #FFFFFF, darkblue);
-    
-}
 
 #wrap{
     margin: auto;
     width: 80%;
-     background-color: white;
+    background-color: white;
 }
 .p-span {
     color: tomato;}
 
 ul {
     list-style-type: square;
+    text-align: left;
 }
 footer {
     font-size: 0.8em; font-style: italic;
@@ -92,6 +95,25 @@ body {
     font-family: "Arial Black","Arial Bold",sans-serif;
     color: black;
     text-align: center;
+
     background-image: linear-gradient(to bottom, #FFFFFF, #99FFFF);
     box-shadow: 5px 5px 5px #1e1e1e;
+
+}
+#heading-id {
+    
+    
+    
+    width: 112%;
+    position:fixed;
+    left: -20px;
+    top: -20px;
+    
+}
+header {
+    font-size: 5em;
+    background-image: url(phtos/adventure.jpg);
+    color: #FFFFFF;
+    background-size: cover;
+    text-align: center;
 }
