@@ -20,7 +20,7 @@ main {
 }
 
 nav {
-    background-color: cadetblue;
+    background-color: #86C98A;
     text-decoration: none;    
     font-size: 1em;  
     margin-bottom: 5px;
@@ -34,8 +34,7 @@ a{
 h2 {
     
     font-family: "Lucida Console","Lucida Sans Typewriter","Bitstream Vera Sans Mono",monospace;
-    color: cadetblue;
-    background-color: aqua;
+    color: #2D8632;
     background-position: right;
     text-transform: uppercase;
     padding-bottom: 10px;
@@ -47,7 +46,7 @@ h2 {
     border-top-right-radius: 90px;
     border-bottom-right-radius: 90px;
     border-bottom-left-radius: 90px;
-/*    opacity: 0.6;*/
+    
 }
 
 .floatmargin{
@@ -62,8 +61,10 @@ h4 {
 }
 
 h3{
-     text-shadow: 3px 3px 3px #666;
+    font-family: "Lucida Console","Lucida Sans Typewriter","Bitstream Vera Sans Mono",monospace;
+    color: #2D8632;
     margin-top: 2px;
+    text-transform: uppercase;
 }
 
 
@@ -76,8 +77,9 @@ h6{
 #wrap{
     margin: auto;
     width: 80%;
-    background-color: white;
+   
 }
+
 .p-span {
     color: tomato;}
 
@@ -93,22 +95,31 @@ footer {
 body {
    
     font-family: "Arial Black","Arial Bold",sans-serif;
-    color: black;
+    color: #162856;
     text-align: center;
+    background-color: #67989A;
 
-    background-image: linear-gradient(to bottom, #FFFFFF, #99FFFF);
-    box-shadow: 5px 5px 5px #1e1e1e;
+/*    background-image: linear-gradient(to bottom, #FFFFFF, #236467);*/
+
+    margin-bottom: 20px;
+    margin-top: 10px;
 
 }
-#heading-id {
-    
-    
-    
+
+p {
+    text-align:center;
+}
+
+.positiontop {
+    left: -20px;
+    top: -20px;
+}
+
+#heading-id {    
     width: 112%;
     position:fixed;
     left: -20px;
     top: -20px;
-    
 }
 header {
     font-size: 5em;
@@ -116,4 +127,11 @@ header {
     color: #FFFFFF;
     background-size: cover;
     text-align: center;
+}
+
+.backgroundbox{
+    background-image: linear-gradient(to top, #236467, #2E4272);
+}
+.textcolor{
+    color: #061539;
 }
