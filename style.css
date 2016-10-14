@@ -5,31 +5,49 @@
     text-decoration: none;
 }
 
-#longpara{
-     background-image:  url(phtos/longpara.jpg);
-    background-repeat: no-repeat;
-    background-size: 500px 300px; 
-    float:left;
-} 
-main {
-   
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 100px;
-
+figure{
+     float:left;
 }
 
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 200px;
+}
+
+
 nav {
-    background-color: #86C98A;
-    text-decoration: none;    
-    font-size: 1em;  
+    background-color: #86C98A; 
     margin-bottom: 5px;
     
 }
+    
 
-a{
-    text-decoration: none;
+
+nav ul {
+    margin:auto;
+    text-align: center;
 }
+
+nav ul a{
+    font-size: 1.5em;  
+    text-decoration: none;
+    
+    
+}
+nav ul a:link{
+    color:#000066;
+}
+
+nav ul a:visited{
+    color: #3399ff;
+}
+
+
+nav ul a:hover{
+    color: #ccffff;
+}
+
 
 h2 {
     
@@ -38,9 +56,9 @@ h2 {
     background-position: right;
     text-transform: uppercase;
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 30px;
     margin-top: 2px;
-    margin-left: 600px;
+    margin-left: auto;
     width: 400px;
     border-top-left-radius: 90px;
     border-top-right-radius: 90px;
@@ -49,16 +67,19 @@ h2 {
     
 }
 
-.floatmargin{
-    margin-left: 500px
+h2 span { 
+  margin-top: -300px;        /* Size of fixed header */
+  padding-bottom: 300px; 
+  display: block; 
 }
+
 
 h4 {
     font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",sans-serif;
-    margin-top: 2px;
-   
-        
+    margin-top: 2px;         
 }
+
+
 
 h3{
     font-family: "Lucida Console","Lucida Sans Typewriter","Bitstream Vera Sans Mono",monospace;
@@ -67,7 +88,11 @@ h3{
     text-transform: uppercase;
 }
 
-
+h3 span { 
+  margin-top: -300px;        /* Size of fixed header */
+  padding-bottom: 300px; 
+  display: block; 
+}
 
 h6{
     margin-top: 2px;
@@ -84,7 +109,7 @@ h6{
     color: tomato;}
 
 ul {
-    list-style-type: square;
+    list-style-type: none;
     text-align: left;
 }
 footer {
@@ -102,7 +127,7 @@ body {
 /*    background-image: linear-gradient(to bottom, #FFFFFF, #236467);*/
 
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top:0;
 
 }
 
@@ -112,14 +137,14 @@ p {
 
 .positiontop {
     left: -20px;
-    top: -20px;
+    top: 0px;
 }
 
 #heading-id {    
     width: 112%;
     position:fixed;
     left: -20px;
-    top: -20px;
+   
 }
 header {
     font-size: 5em;
@@ -134,4 +159,43 @@ header {
 }
 .textcolor{
     color: #061539;
+}
+
+ @media only screen and (max-width: 768px) {
+    header{background-image:url(phtos/adventure.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    font-size: 3em;}
+    img{max-width:100%;
+    height: auto;} 
+    #wrap {min-width: 0; width:auto}
+    body {margin: 0;}
+    nav li{ display:block; font-size: .75em}
+    nav ul{ display: block;}
+    figure{ float:none; padding:0; margin: 0; text-align: center;}
+    h2, h3, h4, h5 {font-size: 90%; width:auto;text-align: center;}
+    main{width:auto;text-align: center;padding:0}
+    p{font-size: 90%; text-align: center;}
+    footer{margin-left:0; font-size:85%}
+     ul li{ font-size: 85%; text-align: center;}
+}
+    
+
+@media only screen and (max-width:480px){
+    header{background-image:url(phtos/adventure.jpg); 
+    background-repeat: repeat;
+    background-size: cover;
+    font-size: 2em}
+    #wrap {min-width: 0; width:auto}
+    main{width:auto;text-align: center;padding:0; margin-top:159px}
+    body {margin: 0;}
+    nav li{ display:block; font-size: .6em}
+    nav ul{ display: block;}
+    figure{ float:none; padding-top: 0; margin: 0; text-align: center;max-width:100%; height: auto;}
+    img{max-width:100%; height: auto;}
+    h2, h3, h4, h5 {font-size: 90%; width:auto;text-align: center;}
+    p{font-size: 100%; text-align: center; margin: 0}
+    ul li{ font-size: 100%; text-align: center;}
+    footer{margin-left:0; font-size:70%}
+    .backgroundbox{max-width:100%; height: auto; margin:0}
 }
